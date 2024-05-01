@@ -1,5 +1,9 @@
-#include <string.c>
+#include "soma.h"
 
-int main(){
-  
+int calcularSoma(int array[], int tamanho) {
+    int soma = 0;
+    for (int i = 0; i < tamanho; i++) {
+        soma += array[i];
+    }
+    return soma;
 }
