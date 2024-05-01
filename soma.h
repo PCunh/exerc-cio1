@@ -1,5 +1,4 @@
-#define 
+#define SOMA_H
 
-int main(){
-  
-}
+
+int calcularSoma(int array[], int tamanho);
